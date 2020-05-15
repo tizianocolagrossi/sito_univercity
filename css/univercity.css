@@ -38,6 +38,9 @@
     color: white;
     font-family: gotham-rounded-medium;
 }
+.tw{
+    color: white;
+}
 
 .bg-orange-lite{
     background: MOCCASIN;
@@ -92,9 +95,22 @@ a.nav-link:hover{
     padding-right: 2rem;
 }
 
+.btn-xl{
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+
 .btn-dark{
     background-color: #000;
     border-color: #000;
+}
+
+.btn-orange{
+    background-color: darkorange;
+    border-color: darkorange;
 }
 
 .rounded-top {
@@ -192,4 +208,14 @@ rounded-left{
 .py-login{
     padding-bottom: 2.5rem!important;
     padding-top: 2.5rem!important;
+}
+
+.plt-xl{
+    padding-left: 3.5rem!important;
+    padding-top: 3.5rem!important;
+}
+
+.image-home{
+    background-image: url("./../img/gummy-office-bag.png");
+    background-size: cover;
 }
