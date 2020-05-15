@@ -4,7 +4,13 @@
 }
 
 .bg-orange-lite{
-    background: #ffcc99;
+    background: MOCCASIN;
+}
+.bg-orange{
+    background: DARKORANGE;
+}
+.bg-white{
+    background: snow!important;
 }
 .bg-transparent{
     background-color: #00000000;
@@ -17,14 +23,7 @@
     align-items: center;
 }
 
-.navbar-extnd-always{
-    -ms-flex-flow: row nowrap;
-    flex-flow: row nowrap;
-    -ms-flex-pack: start;
-    justify-content: flex-start;
-    display: flex;
-    flex-direction: row;
-}
+
 
 a.navbar-brand{
     color: black;
@@ -60,4 +59,96 @@ a.nav-link:hover{
 .btn-dark{
     background-color: #000;
     border-color: #000;
+}
+
+.rounded-top {
+    border-top-left-radius: 3rem!important;
+    border-top-right-radius: 3rem!important;
+}
+.rounded-right {
+    border-top-right-radius: 3rem!important;
+    border-bottom-right-radius: 3rem!important;
+}
+
+.rounded-bottom{
+    border-bottom-left-radius: 3rem!important;
+    border-bottom-right-radius: 3rem!important;
+}
+
+rounded-left{
+    border-bottom-left-radius: 3rem!important;
+    border-top-left-radius: 3rem!important;
+}
+.rounded-b-l{
+    border-bottom-left-radius: 3rem!important;
+}
+.rounded-b-r{
+    border-bottom-right-radius: 3rem!important;
+}
+.rounded-t-l{
+    border-top-left-radius: 3rem!important;
+}
+.rounded-t-r{
+    border-top-right-radius: 3rem!important;
+}
+
+.h-5 {
+    height: 5%!important;
+}
+.h-10 {
+    height: 10%!important;
+}
+.h-15 {
+    height: 15%!important;
+}
+.h-20 {
+    height: 20%!important;
+}
+.h-25 {
+    height: 25%!important;
+}
+.h-30 {
+    height: 30%!important;
+}
+.h-35 {
+    height: 35%!important;
+}
+.h-40 {
+    height: 40%!important;
+}
+.h-45 {
+    height: 45%!important;
+}
+.h-50 {
+    height: 50%!important;
+}
+.h-55 {
+    height: 55%!important;
+}
+.h-60 {
+    height: 60%!important;
+}
+.h-65 {
+    height: 65%!important;
+}
+.h-70 {
+    height: 70%!important;
+}
+.h-75 {
+    height: 75%!important;
+}
+.h-80 {
+    height: 80%!important;
+}
+.h-85 {
+    height: 85%!important;
+}
+.h-90 {
+    height: 90%!important;
+}
+.h-95 {
+    height: 95%!important;
+}
+.h-100 {
+    height: 100%!important;
 }
