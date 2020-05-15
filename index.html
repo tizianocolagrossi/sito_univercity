@@ -12,11 +12,14 @@
         <link rel="stylesheet" href="css/univercity.css">
     </head>
     <body class="bg-orange-lite w-100 h-100">
+        <!--NAVBAR-->
         <nav class="navbar navbar-expand-md h-10 bg-transparent">
+            <!--NAVBAR BRAND-->
             <div class="col-3 col-xs-6"><!--align-left-->
                 <a class="navbar-brand  " href="#">UniverCity</a>
             </div>
-            
+            <!--NAVBAR BRAND END-->
+            <!--NAVBAR MENU-->
             <div class="extnd-cnt  justify-content-center" id="navbars_elements">
                 <ul class="navbar-nav d-none d-md-flex">
                     <li class="nav-item active">
@@ -30,6 +33,8 @@
                     </li>
                 </ul>
             </div>
+            <!--NAVBAR MENU END-->
+            <!--NAVBAR ACCEDI-->
             <div class="col-3 col-xs-6 " id="navbars_elements">
                 <ul class="navbar-nav justify-content-end">
                     <li class="nav-item">
@@ -39,8 +44,9 @@
                     </li> 
                 </ul>
             </div>
+            <!--NAVBAR ACCEDI END-->
         </nav> 
-        
+        <!--NAVBAR END-->
         
         <div class="row h-90 w-100 m-0 p-0">
             <div class="col-lg-9 col-mg-12 h-100">
@@ -69,10 +75,10 @@
                     <!--LOGIN FORM VISIBLE ONLY UNDER MD DEVICES END CODE-->
                     <!--MOTTO E IMMAGINE HOME ONLY OVER MD DEVICES-->
                     <div class="col-7  d-none d-md-block plt-xl">
-                        <p class="h1 font-futura-h">Oggi non è giorno per riposarsi!</p>
+                        <p class="h1 font-futura-h">Oggi non è giorno <br>per riposarsi!</p>
                         <p class="h6 font-futura-m mt-5">Tutti possono iscriversi gratuitamente ad UniverCity per poter consultare tutti gli appunti degli studenti di tutte le università. Crea una raccolta dei migliori appunti e conservala per studiare in fretta e trovare sempre ciò che ti serve.</p>
                         <a href="#" class="btn">
-                            <button type="button" class="btn btn-orange btn-xl d-none d-md-block mr-3 font-gotham-rm ">Inizia ora! <i class="fas fa-angle-double-right"></i></button>
+                            <button type="button" class="btn btn-orange btn-xl d-none d-md-block mr-3 font-gotham-rm ">Iscriviti <i class="fas fa-angle-double-right"></i></button>
                         </a>
                     </div>
                     <div class="col-5 d-none d-md-block p-0">
@@ -85,23 +91,65 @@
                 <div class="row h-35 bg-white rounded-top d-none d-md-block p-xl">
                     <div class="row">
                         <div class="col-6 h-100">
-                        <p class="h3">Parlano di noi</p>
-                        <p class="h6">Il nostro scopo è di semplificare la vita agli studenti</p>
+                        <p class="h3 font-futura-m">Parlano di noi</p>
+                        <p class="h6 font-futura-m">Il nostro scopo è di semplificare la vita agli studenti</p>
                         <div class="logo-radio-sapienza"></div>
                     </div>
                     <div class="col-6 h-100">
-                        <p class="h5 pt-4"><i class="fas fa-medal"></i> Vincitori Google Workshop Roma 2018/2019</p>
-                        <p class="h6 pt-2">
-                            Grazie all'opportinuta fornitaci da La Sapienza Università Roma, abbiamo potuto creare e mostrare il nostro progetto ad un insieme di personalità. Grazie alle loro critiche abbiamo potuto raffinare UniverCity.
+                        <p class="h5 font-futura-m pt-2"><i class="fas fa-medal"></i> Vincitori Google Workshop Roma 2018/2019</p>
+                        <p class="h6 font-futura-m pt-2">
+                            Grazie all'opportunità fornitaci da La Sapienza Università Roma, abbiamo potuto portare il nostro progetto alla vista della sede di Google di Tel Aviv. 
                         </p>
                     </div>
                     </div>
                 </div>
                 <!--FOOTER BIANCO HOME PAGE END-->
             </div>
-            <div class="col-3 h-100 bg-white rounded-top p-0 d-none d-lg-block">
-                <div class="col-12 h-100 rounded-top rounded-b-l bg-orange"></div>
+            <!--LATERAL BAR ORANGE OVER LG-->
+            <div class="col-3 h-100 bg-white rounded-top p-0 mt-prc-5 d-none d-lg-block">
+                <div class="col-12 p-categorie h-100 rounded-top rounded-b-l bg-orange">
+                    <p class="h5 font-gotham-rm">Categorie</p>
+                    <div class="h-90 rounded-card hidden-scrolbar overflow-auto">
+                    <div class="h-13 my-4 col rounded-card bg-seashell">
+                        <div class="h-100 image-prg row align-items-center">
+                            <div class="col-4"></div>
+                            <div class="col-8 font-gotham-rm  align-middle ">Ingegneria</div>
+                        </div>
+                    </div>
+                    <div class="h-13 my-4 col rounded-card bg-seashell">
+                        <div class="h-100 image-chi row align-items-center">
+                            <div class="col-4"></div>
+                            <div class="col-8 font-gotham-rm align-middle ">Chimica</div>
+                        </div>
+                    </div>
+                    <div class="h-13 my-4 col rounded-card bg-seashell">
+                        <div class="h-100 image-med row align-items-center">
+                            <div class="col-4"></div>
+                            <div class="col-8 font-gotham-rm align-middle ">Medicina</div>
+                        </div>
+                    </div>
+                    <div class="h-13 my-4 col rounded-card bg-seashell">
+                        <div class="h-100 image-arc row align-items-center">
+                            <div class="col-4"></div>
+                            <div class="col-8 font-gotham-rm align-middle ">Architettura</div>
+                        </div>
+                    </div>
+                    <div class="h-13 my-4 col rounded-card bg-seashell">
+                        <div class="h-100 image-eco row align-items-center">
+                            <div class="col-4"></div>
+                            <div class="col-8 font-gotham-rm align-middle ">Economia</div>
+                        </div>
+                    </div>
+                    <div class="h-13 my-4 col rounded-card bg-seashell">
+                        <div class="h-100 image-let row align-items-center">
+                            <div class="col-4"></div>
+                            <div class="col-8 font-gotham-rm align-middle ">Lettere</div>
+                        </div>
+                    </div>
+                </div>
+                </div>
             </div>
+            <!--LATERAL BAR ORANGE OVER LG END-->
         </div>
         
         

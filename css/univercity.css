@@ -38,6 +38,9 @@
     color: white;
     font-family: gotham-rounded-medium;
 }
+.fs-s{
+    font-size: 0.85rem;
+}
 .tw{
     color: white;
 }
@@ -50,6 +53,9 @@
 }
 .bg-white{
     background: snow!important;
+}
+.bg-seashell{
+    background: SEASHELL;
 }
 .bg-transparent{
     background-color: #00000000;
@@ -75,6 +81,8 @@ a.navbar-brand:hover{
 }
 
 a.nav-link{
+    margin-left: .5rem;
+    margin-right: .5rem;
     color: black;
     font-family: gotham-rounded-medium;
 }
@@ -144,11 +152,24 @@ rounded-left{
     border-top-right-radius: 3rem!important;
 }
 
+.rounded-card{
+    border-bottom-left-radius: 1rem!important;
+    border-bottom-right-radius: 1rem!important;
+    border-top-left-radius: 1rem!important;
+    border-top-right-radius: 1rem!important;
+}
+.hidden-scrolbar::-webkit-scrollbar {
+  display: none;
+}
+
 .h-5 {
     height: 5%!important;
 }
 .h-10 {
     height: 10%!important;
+}
+.h-13 {
+    height: 13%!important;
 }
 .h-15 {
     height: 15%!important;
@@ -220,10 +241,56 @@ rounded-left{
     padding-top: 2.5rem!important;
     padding-bottom: 2.5rem!important;
 }
+.p-categorie{
+    padding-top: 2rem!important;
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
+
+}
+
+.mt-prc{
+    margin-top: 2%;
+}
 
 .image-home{
     background-image: url("./../img/gummy-office-bag.png");
     background-size: cover;
+}
+.image-prg{
+    background-image: url("./../img/gummy-programming.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.image-chi{
+    background-image: url("./../img/gummy-chemistry-lab.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.image-arc{
+    background-image: url("./../img/gummy-designer-tools-1.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.image-med{
+    background-image: url("./../img/gummy-medical-lab.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.image-eco{
+    background-image: url("./../img/gummy-wallet.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.image-let{
+    background-image: url("./../img/gummy-writing-tools.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
 }
 .logo-radio-sapienza{
     margin-top: 2rem;
@@ -232,4 +299,8 @@ rounded-left{
     height: 2rem;
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+.v-center{
+    vertical-align: -webkit-center;
 }
