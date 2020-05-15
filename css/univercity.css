@@ -3,6 +3,42 @@
   src: url(./../font/gotham-rounded-medium.otf);
 }
 
+@font-face {
+  font-family: futura-condensed-light;
+  src: url(./../font/futura-condensed-light.otf);
+}
+
+@font-face {
+  font-family: futura-heavy;
+  src: url(./../font/futura-heavy.ttf);
+}
+
+@font-face {
+  font-family: futura-medium;
+  src: url(./../font/futura-medium.ttf);
+}
+
+.font-futura-cl{
+    color: black;
+    font-family: futura-condensed-light;
+}
+.font-futura-h{
+    color: black;
+    font-family: futura-heavy;
+}
+.font-futura-m{
+    color: black;
+    font-family: futura-medium;
+}
+.font-gotham-rm{
+    color: black;
+    font-family: gotham-rounded-medium;
+}
+.font-gotham-rm-w{
+    color: white;
+    font-family: gotham-rounded-medium;
+}
+
 .bg-orange-lite{
     background: MOCCASIN;
 }
@@ -151,4 +187,9 @@ rounded-left{
 }
 .h-100 {
     height: 100%!important;
+}
+
+.py-login{
+    padding-bottom: 2.5rem!important;
+    padding-top: 2.5rem!important;
 }

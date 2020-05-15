@@ -13,8 +13,8 @@
     </head>
     <body class="bg-orange-lite w-100 h-100">
         <nav class="navbar navbar-expand-md h-10 bg-transparent">
-            <div class="col-3 col-xs-6">
-                <a class="navbar-brand align-left" href="#">Univercity</a>
+            <div class="col-3 col-xs-6"><!--align-left-->
+                <a class="navbar-brand  " href="#">Univercity</a>
             </div>
             
             <div class="extnd-cnt  justify-content-center" id="navbars_elements">
@@ -44,7 +44,29 @@
         
         <div class="row h-90 w-100 m-0 p-0">
             <div class="col-lg-8 col-mg-12 h-100">
-                <div class="row h-65"></div>
+                <div class="row h-65">
+                    <!--LOGIN FORM VISIBLE ONLY UNDER MD DEVICES-->
+                    <dir class="col-12 h-100 w-100 d-block d-md-none py-login">
+                        <div class="card w-75 m-auto" >
+                            <div class="card-body text-center w-100 h-100 ">
+                                <h5 class="card-title font-futura-h">Login</h5>
+                                <form>
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1" class="font-futura-m">Indirizzo email</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                                        <small id="emailHelp" class="form-text text-muted font-futura-cl">Noi non condivideremo con nessuno il tuo indirizzo email.</small>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="exampleInputPassword1"  class="font-futura-m">Password</label>
+                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                    </div>
+                                    
+                                    <button type="submit" class="font-gotham-rm-w btn btn-dark btn-lg ">Accedi</button>
+                                </form>
+                            </div>
+                        </div>
+                    </dir>
+                </div>
                 <div class="row h-35 bg-white rounded-top d-none d-md-block"></div>
             </div>
             <div class="col-4 h-100 bg-white rounded-top p-0 d-none d-lg-block">
