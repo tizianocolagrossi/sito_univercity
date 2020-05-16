@@ -13,7 +13,7 @@
     </head>
     <body class="bg-orange-lite position-static w-100 h-100">
         <!--NAVBAR-->
-        <nav class="navbar navbar-expand-md h-10 bg-transparent">
+        <nav class="navbar d-none d-md-flex navbar-expand-md h-10 bg-transparent">
             <!--NAVBAR BRAND-->
             <div class="col-3 col-xs-6"><!--align-left-->
                 <a class="navbar-brand  " href="#">UniverCity</a>
@@ -48,11 +48,46 @@
         </nav> 
         <!--NAVBAR END-->
         
-        <div class="row h-90 w-100 m-0 p-0">
-            <div class="col-lg-9 col-mg-12 h-100">
-                <div class="row h-65">
-                    <!--LOGIN FORM VISIBLE ONLY UNDER MD DEVICES-->
-                    <dir class="col-12 h-100 w-100 d-block d-md-none py-login">
+        <div class=" bg-white d-block d-sm-none h-100 w-100">
+            <!--TITLE LOGO LOGIN APP-->
+            <div class="row h-30 d-table w-100 p-0 m-0">
+                <table class="h-100 w-100">
+                <tbody>
+                    <tr>
+                        <td class="align-bottom col text-center">
+                            <a class="navbar-brand fs-over-xl fc-orange mb-4 mr-0">UniverCity</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            </div>
+            <!--TITLE LOGO LOGIN APP END-->
+            <!--LOGIN FORM VISIBLE ONLY UNDER MD DEVICES-->
+            <div class="col h-70">
+                <div class="card-body bg-orange-lite rounded-card text-center w-100 h-70 ">
+                    <h4 class="card-title font-futura-h mb-1 ">Bentornato</h4>
+                    <h6 class="card-title font-futura-m">Accedi con il tuo account</h6>
+                    <form class="">
+                        <div class="form-group text-left">
+                            <label for="exampleInputEmail1" class="h6 font-futura-m">Email ID</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                        </div>
+                        <div class="form-group text-left mb-0">
+                            <label for="exampleInputPassword1"  class="h6 font-futura-m  ">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                        </div>
+                        <div class="text-right">
+                            <label class=" text-right mb-4"><a href="">Dimenticato la Password?</a></label>
+                        </div>
+                        
+                        <button type="submit" class="font-gotham-rm-w btn btn-dark btn-lg">Accedi</button>
+                        <label class="h6 mt-4">Non hai un account? <a href="">Iscriviti</a></label>
+                    </form>
+                </div>
+            </div>     
+                    
+                    
+                    <!--<div class="col-12 h-100 w-100 d-block d-md-none py-login">
                         <div class="card rounded-card w-75 m-auto" >
                             <div class="card-body text-center w-100 h-100 ">
                                 <h5 class="card-title font-futura-h">Login</h5>
@@ -71,24 +106,29 @@
                                 </form>
                             </div>
                         </div>
-                    </dir>
+                    </div>-->
                     <!--LOGIN FORM VISIBLE ONLY UNDER MD DEVICES END CODE-->
+        </div>
+        
+        <div class="row h-90 d-none d-md-flex w-100 m-0 p-0">
+            <div class="col-lg-9 col-mg-12 h-100">
+                <div class="row h-65">
                     <!--MOTTO E IMMAGINE HOME ONLY OVER MD DEVICES-->
-                    <div class="col-7 d-none d-md-block position-relative zindex-bottom plt-xl">
+                    <div class="col-7  position-relative zindex-bottom plt-xl">
                         <p class="h1 font-futura-h">Oggi non è giorno <br>per riposarsi!</p>
                         <p class="h6 font-futura-m mt-5">Tutti possono iscriversi gratuitamente ad UniverCity per poter consultare tutti gli appunti degli studenti di tutte le università. Crea una raccolta dei migliori appunti e conservala per studiare in fretta e trovare sempre ciò che ti serve.</p>
                         <a href="#" class="btn">
                             <button type="button" class="btn btn-orange btn-xl d-none d-md-block mr-3 font-gotham-rm ">Iscriviti <i class="fas fa-angle-double-right"></i></button>
                         </a>
                     </div>
-                    <div class="col-5 d-none d-md-block position-relative zindex-bottom p-0">
+                    <div class="col-5  position-relative zindex-bottom p-0">
                         <!--LINK MESSO PER LEGALITA'-->
                         <a href="https://icons8.it"><div class="image-home h-100 w-100"></div></a>
                     </div>
                     <!--MOTTO E IMMAGINE HOME ONLY OVER MD DEVICES END-->
                 </div>
                 <!--FOOTER BIANCO HOME PAGE-->
-                <div class="row h-35 bg-white rounded-top d-none d-md-block position-relative zindex-middle p-xl">
+                <div class="row h-35 bg-white rounded-top position-relative zindex-middle p-xl">
                     <div class="row">
                         <div class="col-6 h-100">
                         <p class="h3 font-futura-m">Parlano di noi</p>

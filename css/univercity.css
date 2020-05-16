@@ -38,8 +38,16 @@
     color: white;
     font-family: gotham-rounded-medium;
 }
+
+.fc-orange{
+    color: orangered!important;
+}
+
 .fs-s{
     font-size: 0.85rem;
+}
+.fs-over-xl{
+    font-size: 2.5rem!important;
 }
 .tw{
     color: white;
@@ -308,3 +316,10 @@ rounded-left{
 .zindex-bottom{z-index: 1000!important;}
 .zindex-middle{z-index: 1020!important;}
 .zindex-top{z-index: 1040!important;}
+
+a{
+    color: orangered;
+}
+a:hover{
+    color: darkgrey;
+}
