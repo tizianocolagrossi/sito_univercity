@@ -304,3 +304,7 @@ rounded-left{
 .v-center{
     vertical-align: -webkit-center;
 }
+
+.zindex-bottom{z-index: 1000!important;}
+.zindex-middle{z-index: 1020!important;}
+.zindex-top{z-index: 1040!important;}
