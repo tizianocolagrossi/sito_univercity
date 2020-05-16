@@ -62,12 +62,12 @@
                         <h6 class="card-title font-futura-m">Accedi con il tuo account</h6>
                         <form class="">
                             <div class="form-group text-left">
-                                <label for="exampleInputEmail1" class="h6 font-futura-m">Email ID</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                                <label for="inputEmail" class="h6 font-futura-m">Email ID</label>
+                                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Email">
                             </div>
                             <div class="form-group text-left mb-0">
-                                <label for="exampleInputPassword1"  class="h6 font-futura-m  ">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                                <label for="inputPassword1"  class="h6 font-futura-m  ">Password</label>
+                                <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
                             </div>
                             <div class="text-right">
                                 <label class=" text-right mb-4"><a href="">Dimenticato la Password?</a></label>
@@ -78,7 +78,7 @@
                         </form>
                     </div>
                     <div class="modal-footer modal-footer-over-custom">
-                        <label class="h6 mt-4">Non hai un account? <a href="">Iscriviti</a></label>
+                        <label class="h6 mt-4">Non hai un account? <a href="./iscrizione.html">Iscriviti</a></label>
                     </div>
                 </div>
             </div>
@@ -86,6 +86,7 @@
         <!--MODAL LOGIN END-->
         
         
+        <!--LOGIN FORM VISIBLE ONLY UNDER MD DEVICES-->
         <div class=" bg-orange-lite d-block d-md-none h-100 w-100">
             <!--TITLE LOGO LOGIN APP-->
             <div class="row h-30 d-table w-100 p-0 m-0">
@@ -100,31 +101,31 @@
             </table>
             </div>
             <!--TITLE LOGO LOGIN APP END-->
-            <!--LOGIN FORM VISIBLE ONLY UNDER MD DEVICES-->
             <div class="col h-70">
                 <div class="card-body bg-white rounded-card text-center w-100">
                     <h4 class="card-title font-futura-h mb-1 ">Bentornato</h4>
                     <h6 class="card-title font-futura-m">Accedi con il tuo account</h6>
                     <form class="">
                         <div class="form-group text-left">
-                            <label for="exampleInputEmail1" class="h6 font-futura-m">Email ID</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                            <label for="inputEmail1" class="h6 font-futura-m">Email ID</label>
+                            <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
                         </div>
                         <div class="form-group text-left mb-0">
-                            <label for="exampleInputPassword1"  class="h6 font-futura-m  ">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            <label for="inputPassword1"  class="h6 font-futura-m  ">Password</label>
+                            <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
                         </div>
                         <div class="text-right">
                             <label class=" text-right mb-4"><a href="">Dimenticato la Password?</a></label>
                         </div>
                         
-                        <button type="submit" class="font-gotham-rm-w btn btn-dark btn-lg">Accedi</button>
+                        <button type="submit" class="font-gotham-rm-w btn btn-dark btn-lg">Accedi</button><br>
                         <label class="h6 mt-4">Non hai un account? <a href="">Iscriviti</a></label>
                     </form>
                 </div>
-            </div>     
+            </div> 
         </div>
-        
+        <!--LOGIN FORM VISIBLE ONLY UNDER MD DEVICES END --> 
+        <!--PAGE VISIBILE SOPRA MD-->
         <div class="row h-90 d-none d-md-flex w-100 m-0 p-0">
             <div class="col-lg-9 col-mg-12 h-100">
                 <div class="row overflow-hidden h-65">
@@ -132,7 +133,7 @@
                     <div class="col-7  position-relative zindex-bottom plt-xl">
                         <p class="h1 font-futura-h">Oggi non è giorno <br>per riposarsi!</p>
                         <p class="h6 font-futura-m mt-5">Tutti possono iscriversi gratuitamente ad UniverCity per poter consultare tutti gli appunti degli studenti di tutte le università. Crea una raccolta dei migliori appunti e conservala per studiare in fretta e trovare sempre ciò che ti serve.</p>
-                        <a href="#" class="btn">
+                        <a href="./iscrizione.html" class="btn">
                             <button type="button" class="btn btn-orange btn-xl d-none d-md-block mr-3 font-gotham-rm ">Iscriviti <i class="fas fa-angle-double-right"></i></button>
                         </a>
                     </div>
@@ -206,43 +207,7 @@
             </div>
             <!--LATERAL BAR ORANGE OVER LG END-->
         </div>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
+         <!--PAGE VISIBILE SOPRA MD END-->
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
