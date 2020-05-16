@@ -323,3 +323,21 @@ a{
 a:hover{
     color: darkgrey;
 }
+
+.modal-header-over-custom{
+    border-bottom: 0px;
+}
+
+.modal-header-over-custom .close-over-custom {
+    margin: -1rem -1rem -1rem -2.5rem;
+}
+
+.modal-content-over-custom{
+    border-radius: 2rem;
+}
+
+.modal-footer-over-custom {
+    justify-content: center;
+    border-top: 0px;
+}
+

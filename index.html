@@ -39,7 +39,7 @@
                 <ul class="navbar-nav justify-content-end">
                     <li class="nav-item">
                         <a class="nav-link"  href="#">
-                            <button type="button" class="btn btn-dark btn-lg d-none d-md-block mr-3">Accedi</button>
+                            <button type="button" class="btn btn-dark btn-lg d-none d-md-block mr-3" data-toggle="modal" data-target="#loginModalCenter">Accedi</button>
                         </a>
                     </li> 
                 </ul>
@@ -48,7 +48,45 @@
         </nav> 
         <!--NAVBAR END-->
         
-        <div class=" bg-white d-block d-sm-none h-100 w-100">
+        <!--MODAL LOGIN START-->
+        <div class="modal fade" id="loginModalCenter" tabindex="-1" role="dialog" aria-labelledby="loginModalCenterTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content modal-content-over-custom bg-white p-4">
+                    <div class="modal-header modal-header-over-custom">
+                        <h5 class="modal-title font-futura-h mx-auto" id="exampleModalLongTitle">Bentornato</h5>
+                        <button type="button" class="close close-over-custom" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body text-center">
+                        <h6 class="card-title font-futura-m">Accedi con il tuo account</h6>
+                        <form class="">
+                            <div class="form-group text-left">
+                                <label for="exampleInputEmail1" class="h6 font-futura-m">Email ID</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                            </div>
+                            <div class="form-group text-left mb-0">
+                                <label for="exampleInputPassword1"  class="h6 font-futura-m  ">Password</label>
+                                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                            </div>
+                            <div class="text-right">
+                                <label class=" text-right mb-4"><a href="">Dimenticato la Password?</a></label>
+                            </div>
+                    
+                            <button type="submit" class="font-gotham-rm-w btn btn-dark btn-lg">Accedi</button>
+                            
+                        </form>
+                    </div>
+                    <div class="modal-footer modal-footer-over-custom">
+                        <label class="h6 mt-4">Non hai un account? <a href="">Iscriviti</a></label>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--MODAL LOGIN END-->
+        
+        
+        <div class=" bg-orange-lite d-block d-md-none h-100 w-100">
             <!--TITLE LOGO LOGIN APP-->
             <div class="row h-30 d-table w-100 p-0 m-0">
                 <table class="h-100 w-100">
@@ -64,7 +102,7 @@
             <!--TITLE LOGO LOGIN APP END-->
             <!--LOGIN FORM VISIBLE ONLY UNDER MD DEVICES-->
             <div class="col h-70">
-                <div class="card-body bg-orange-lite rounded-card text-center w-100 h-70 ">
+                <div class="card-body bg-white rounded-card text-center w-100 h-70 ">
                     <h4 class="card-title font-futura-h mb-1 ">Bentornato</h4>
                     <h6 class="card-title font-futura-m">Accedi con il tuo account</h6>
                     <form class="">
@@ -85,29 +123,6 @@
                     </form>
                 </div>
             </div>     
-                    
-                    
-                    <!--<div class="col-12 h-100 w-100 d-block d-md-none py-login">
-                        <div class="card rounded-card w-75 m-auto" >
-                            <div class="card-body text-center w-100 h-100 ">
-                                <h5 class="card-title font-futura-h">Login</h5>
-                                <form>
-                                    <div class="form-group">
-                                        <label for="exampleInputEmail1" class="font-futura-m">Indirizzo email</label>
-                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-                                        <small id="emailHelp" class="form-text text-muted font-futura-cl">Noi non condivideremo con nessuno il tuo indirizzo email.</small>
-                                    </div>
-                                    <div class="form-group">
-                                        <label for="exampleInputPassword1"  class="font-futura-m">Password</label>
-                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-                                    </div>
-                                    
-                                    <button type="submit" class="font-gotham-rm-w btn btn-dark btn-lg ">Accedi</button>
-                                </form>
-                            </div>
-                        </div>
-                    </div>-->
-                    <!--LOGIN FORM VISIBLE ONLY UNDER MD DEVICES END CODE-->
         </div>
         
         <div class="row h-90 d-none d-md-flex w-100 m-0 p-0">
